@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#using if to check for file presence and size
 
 FILE="school"
 
