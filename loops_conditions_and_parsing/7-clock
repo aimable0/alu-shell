@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#creating a clock like display
+
+h=0
+t=1
+
+while [[ $h -lt 13 ]]; do
+	echo "Hour: $h"
+
+	while [[ $t -lt 60 ]]; do
+	       echo "$t"
+	       t=$((t + 1))
+	done
+	t=1
+	h=$((h+1));
+done
