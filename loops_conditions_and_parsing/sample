@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#trial 1
+
+for i in ls -l | cut  do
+	echo "$i"
+done
