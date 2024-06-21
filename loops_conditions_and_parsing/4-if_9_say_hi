@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 #printing a text with an exception (if)
 
 i=0;
