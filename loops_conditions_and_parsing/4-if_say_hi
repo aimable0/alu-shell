@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+#printing a text with an exception (if)
+
+i=0;
+
+while ((i < 10)); do
+
+	echo "Best School"
+	if [[ $i -eq 8 ]]; then
+		echo "Hi"
+	fi
+	i=$((i + 1));
+done
