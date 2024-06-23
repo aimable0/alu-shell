@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #using for to display content
 
-for line in $(ls); do
+for line in $(ls | cat); do
 	echo "$line" | cut -d'-' -f2
 done
